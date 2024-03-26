@@ -25,11 +25,23 @@ This guide provides step-by-step instructions for installing and configuring the
      ```
 
 2. **Install AWS CLI**:
-   - Use the package manager to install AWS CLI:
-     ```bash
-     sudo apt install awscli
-     ```
-
+  
+- You can clone the scripts from the repository below to install the awscli and Terraform:
+      ```bash
+      git clone https://github.com/sanjukuruvilla/scripts.git
+      ```
+- Navigate to the repository directory:
+      ```bash
+      cd scripts
+      ```
+- Make sure the script has executable permissions. If not, you can grant them
+      ```bash
+      chmod +x awscli.sh
+      ```
+- Execute the script
+      ```bash
+      bash awscli.sh
+      ```
 ## Configuration
 
 1. **Access AWS Management Console**:
