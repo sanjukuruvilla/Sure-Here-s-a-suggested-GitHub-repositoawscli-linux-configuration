@@ -29,23 +29,23 @@ This guide provides step-by-step instructions for installing and configuring the
   
 - You can clone the scripts from the repository below to install the awscli and Terraform:
   
-      ```bash
-      git clone https://github.com/sanjukuruvilla/scripts.git
-      ```
+   ```bash
+   git clone https://github.com/sanjukuruvilla/scripts.git
+   ```
   
 - Navigate to the repository directory:
-      ```bash
-      cd scripts
-      ```
+  ```bash
+  cd scripts
+  ```
 - Make sure the script has executable permissions. If not, you can grant them
-      ```bash
-      chmod +x awscli.sh
-      ```
+   ```bash
+   chmod +x awscli.sh
+   ```
 - Execute the script
   
-      ```bash
-      bash awscli.sh
-      ```
+  ```bash
+  bash awscli.sh
+  ```
   
 ## Configuration
 
